@@ -1,11 +1,15 @@
-
-
+import Footer from "components/Footer";
+import Navbar from "components/Navbar";
 
 function App() {
   return (
-    <div>
-      <h1>Hello word</h1>
-    </div>
+    <>
+      <Navbar></Navbar>
+      <div className="container">
+        <h1 className="text-primary">Hello word</h1>
+      </div>
+      <Footer></Footer>
+    </>
   );
 }
 
